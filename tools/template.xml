@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <addon id="plugin.video.kodezey" name="KodEZEY" version="1.0" provider-name="David Charters">
+        <requires>
+            <import addon="xbmc.addon" version="18.2.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="{name}">
+            <info compressed="false">https://raw.githubusercontent.com/dcharters70/kodezey/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/dcharters70/kodezey/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/dcharters70/kodezey/master/zips/</datadir>
+            <hashes>false</hashes>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/dcharters70/kodezey/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/dcharters70/kodezey/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/dcharters70/kodezey/master/zips/</datadir>
+				<hashes>false</hashes>
+			</dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>{summary}</summary>
+            <description>{description}</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
